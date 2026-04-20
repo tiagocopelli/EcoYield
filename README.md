@@ -12,50 +12,54 @@ O EcoYield é um ecossistema DeFi (Finanças Descentralizadas) e Web3 construíd
 <br>
 🚀 Visão Geral
 O projeto consiste numa arquitetura modular de quatro contratos inteligentes interconectados que permitem aos utilizadores:
-
+<br>
 Ganhos Passivos: Bloquear tokens $ECO para gerar rendimentos baseados no tempo (staking).
-
+<br>
 Governança Ativa: Propor e votar em mudanças no protocolo com peso proporcional à posse de tokens.
-
+<br>
 Reputação Web3: Emitir Badges (NFTs) exclusivos para comprovar a sua participação no ecossistema.
-
+<br>
 <br>
 🏗️ Arquitetura Técnica
 O protocolo é dividido em camadas de responsabilidade:
-
+<br>
 EcoToken.sol ($ECO): Token ERC20 com suporte a ERC20Votes e ERC20Permit. É a unidade de valor e o combustível da governação.
-
+<br>
 EcoStaking.sol: O motor financeiro. Gere depósitos, calcula recompensas por bloco e utiliza proteção contra reentrada (ReentrancyGuard).
-
+<br>
 EcoGovernance.sol: Sistema de votação democrática que utiliza snapshots de blocos passados para prevenir ataques de Flash Loans.
-
+<br>
 EcoBadge.sol: Contrato ERC721 (NFT) que lida com a emissão de certificados digitais de participação.
-
+<br>
 <br>
 🛡️ Segurança e Auditoria
+<br>
 O projeto foi desenvolvido seguindo as melhores práticas de segurança:
-
+<br>
 OpenZeppelin: Uso de bibliotecas padrão da indústria para ERC20, ERC721 e Controlo de Acesso.
-
+<br>
 Prevenção de Reentrada: Implementação de nonReentrant em funções críticas de movimentação de fundos.
-
+<br>
 Checkpoints de Voto: Uso de getPastVotes para garantir que o peso do voto seja baseado no histórico real do utilizador.
-
+<br>
 Solidity 0.8.20: Proteção nativa contra overflow e underflow aritmético.
-
+<br>
 <br>
 💻 Como Executar o Projeto
+<br>
 Pré-requisitos
-
+<br>
 Uma carteira Web3 (ex: MetaMask).
-
+<br>
 Acesso a uma Testnet (ex: Sepolia).
-
+<br>
 <br>
 📊 Roadmap
+<br>
 [ ] Implementação de taxas de staking dinâmicas via DAO.
-
+<br>
 [ ] Dashboard analítico de rendimentos.
-
+<br>
 [ ] Integração com Oráculos para preços em tempo real.
+<br>
 
