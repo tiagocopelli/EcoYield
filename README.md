@@ -5,9 +5,10 @@ Curso Web 3.0 - Fase Capacitação
 <br>
 Projeto Web3 - Desenvolvimento de Protocolo Web3 Completo com Deploy em Testnet
 <br>
+<br>
 📝 EcoYield Protocol
 O EcoYield é um ecossistema DeFi (Finanças Descentralizadas) e Web3 construído em Solidity. O protocolo integra staking de tokens, governança on-chain e identidade digital via NFTs para incentivar a participação ativa e sustentável em comunidades descentralizadas.
-
+<br>
 <br>
 🚀 Visão Geral
 O projeto consiste numa arquitetura modular de quatro contratos inteligentes interconectados que permitem aos utilizadores:
